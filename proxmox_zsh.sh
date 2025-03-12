@@ -30,5 +30,5 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 
 # Add to .zshrc:
-# plugins=(git sh-eza zsh-syntax-highlighting zsh-autosuggestions eza)
+# plugins=(git zsh-syntax-highlighting zsh-autosuggestions eza)
 # ZSH_THEME="powerlevel10k/powerlevel10k" 
