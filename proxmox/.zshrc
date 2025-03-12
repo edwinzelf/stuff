@@ -14,7 +14,7 @@ source $ZSH/oh-my-zsh.sh
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
-alias ls="eza -F -gh --group-directories-first --git ${EZA_GIT_IGNORE} --icons --color-scale all --hyperlink"
+alias ls="eza -F -gh --group-directories-first --git ${EZA_GIT_IGNORE} --color-scale all --hyperlink"
 
 export BAT_THEME=Dracula
 export MICRO_TRUECOLOR=1
