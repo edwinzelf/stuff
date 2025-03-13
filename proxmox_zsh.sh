@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# TODO: Remove pve-enterprise, add pve-no-subscription repo to sources.list(*)
-
 # Update packages, install essentials
 apt update
 apt install -y build-essential git zsh htop bat gpg micro
