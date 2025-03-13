@@ -33,5 +33,11 @@ mkdir -p ~/.config/micro/colorschemes
 wget -q https://github.com/catppuccin/micro/raw/refs/heads/main/src/catppuccin-mocha.micro -O ~/.config/micro/colorschemes/catppuccin-mocha.micro 
 wget -q https://github.com/edwinzelf/stuff/raw/refs/heads/main/proxmox/.config/micro/settings.json -O ~/.config/micro/settings.json
 
+# SwapShell Script
+wget -q https://raw.githubusercontent.com/edwinzelf/stuff/refs/heads/main/proxmox/swapshell.sh -O ~/swapshell.sh
+chmod +x ~/swapshell.sh
+
+
+
 # done
 
