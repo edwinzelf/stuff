@@ -2,7 +2,7 @@
 
 # Update packages, install essentials
 apt update
-apt install -y build-essential git zsh htop bat gpg micro duf
+apt install -y build-essential git zsh htop bat gpg micro duf ncdu
 
 # make bat command work ;-)
 ln -s /usr/bin/batcat /usr/bin/bat 
