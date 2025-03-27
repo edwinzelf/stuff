@@ -16,7 +16,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 alias ls="eza -F -gh --group-directories-first --git ${EZA_GIT_IGNORE} --color-scale all --hyperlink"
 
-export BAT_THEME=Dracula
+export BAT_THEME="Catppuccin Mocha"
 export MICRO_TRUECOLOR=1
 
 
