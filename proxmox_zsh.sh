@@ -5,7 +5,10 @@ apt update
 apt install -y build-essential git zsh htop bat gpg micro duf ncdu
 
 # make bat command work ;-)
-ln -s /usr/bin/batcat /usr/bin/bat 
+ln -s /usr/bin/batcat /usr/bin/bat
+mkdir -p ~/.config/bat/themes
+wget -q https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Mocha.tmTheme -O ~/.config/bat/themes/Catppuccin%20Mocha.tmTheme
+bat cache --build
 
 # Add EZA to proxmox
 mkdir -p /etc/apt/keyrings
